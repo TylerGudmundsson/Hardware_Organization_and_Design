@@ -1,0 +1,10 @@
+Fitter Status : Successful - Thu Jan 16 20:02:26 2014
+Quartus II 64-Bit Version : 9.0 Build 235 06/17/2009 SP 2 SJ Full Version
+Revision Name : DESIGN4TG
+Top-level Entity Name : DESIGN4TG
+Family : FLEX10K
+Device : EPF10K70RC240-4
+Timing Models : Final
+Total logic elements : 113 / 3,744 ( 3 % )
+Total pins : 28 / 189 ( 15 % )
+Total memory bits : 0 / 18,432 ( 0 % )

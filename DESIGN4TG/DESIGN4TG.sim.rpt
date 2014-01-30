@@ -1,0 +1,306 @@
+Simulator report for DESIGN4TG
+Thu Jan 09 19:46:17 2014
+Quartus II 64-Bit Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------+
+; Simulator Summary                             ;
++-----------------------------+-----------------+
+; Type                        ; Value           ;
++-----------------------------+-----------------+
+; Simulation Start Time       ; 0 ps            ;
+; Simulation End Time         ; 61.0 s          ;
+; Simulation Netlist Size     ; 92 nodes        ;
+; Simulation Coverage         ;      60.58 %    ;
+; Total Number of Transitions ; 2372            ;
+; Simulation Breakpoints      ; 0               ;
+; Family                      ; FLEX10K         ;
+; Device                      ; EPF10K70RC240-4 ;
++-----------------------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      60.58 % ;
+; Total nodes checked                                 ; 92           ;
+; Total output ports checked                          ; 104          ;
+; Total output ports with complete 1/0-value coverage ; 63           ;
+; Total output ports with no 1/0-value coverage       ; 38           ;
+; Total output ports with no 1-value coverage         ; 38           ;
+; Total output ports with no 0-value coverage         ; 41           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                                 ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                 ; Output Port Name                                                                                                             ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[1]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[1]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[2]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[2]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[3]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[3]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux0~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux0~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux1~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux1~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux2~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux2~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux3~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux3~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux4~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux4~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux5~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux5~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux6~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst21|Mux6~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[1]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[1]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[1]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[1]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[2]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[2]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[3]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[3]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux0~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux0~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux1~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux1~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux2~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux2~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux3~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux3~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux4~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux4~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux5~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux5~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux6~0                                                                               ; |DESIGN4TG|DESIGN4TG_7SEG_DEC:inst20|Mux6~0                                                                                  ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|TRIG_Z                                                                                ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|TRIG_Z                                                                                   ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|TRIG_Z                                                                                ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|TRIG_Z                                                                                   ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|TRIG_Z~1                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|TRIG_Z~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|TRIG_Z~1                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|TRIG_Z~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[1]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[0]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[0]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[2]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[2]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[1]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[1]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|lpm_counter:\P1:CURRENT_CNT[1]_rtl_3|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[0]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[0]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|Equal0~1                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|Equal0~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|LessThan0~0                                                                           ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|LessThan0~0                                                                              ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[1]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[1]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[3]~1 ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[3]~1    ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[2]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[2]~COUT ; cout             ;
+; |DESIGN4TG|inst19~0                                                                                                       ; |DESIGN4TG|inst19~0                                                                                                          ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[0]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[0]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|LessThan0~0                                                                           ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst1|LessThan0~0                                                                              ; data_out0        ;
+; |DESIGN4TG|CLK                                                                                                            ; |DESIGN4TG|CLK~corein                                                                                                        ; dataout          ;
+; |DESIGN4TG|LED_FIVE_SEC[8]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[8]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[7]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[7]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[6]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[6]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[5]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[5]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[4]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[4]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[3]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[3]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[2]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[2]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_MIN[1]                                                                                                ; |DESIGN4TG|LED_NINE_MIN[1]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[8]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[8]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[7]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[7]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[6]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[6]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[5]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[5]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[4]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[4]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[3]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[3]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[2]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[2]                                                                                                   ; padio            ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                                    ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                 ; Output Port Name                                                                                                             ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z                                                                                ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z                                                                                   ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[3]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[3]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[2]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[2]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[1]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[1]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[3]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[3]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|TRIG_Z                                                                                ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|TRIG_Z                                                                                   ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z~1                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|LessThan0~0                                                                           ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|LessThan0~0                                                                              ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|Equal0~1                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|Equal0~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|inst19                                                                                                         ; |DESIGN4TG|inst19                                                                                                            ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]~1 ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]~1    ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|Equal0~1                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|Equal0~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|LessThan0~0                                                                           ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|LessThan0~0                                                                              ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]~1 ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]~1    ; data_out0        ;
+; |DESIGN4TG|RESET                                                                                                          ; |DESIGN4TG|RESET~corein                                                                                                      ; dataout          ;
+; |DESIGN4TG|EXT_TRIG                                                                                                       ; |DESIGN4TG|EXT_TRIG                                                                                                          ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[4]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[4]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[3]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[3]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[2]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[2]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[1]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[1]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[1]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[1]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_MIN[4]                                                                                                ; |DESIGN4TG|LED_NINE_MIN[4]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_MIN[3]                                                                                                ; |DESIGN4TG|LED_NINE_MIN[3]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[1]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[1]                                                                                                   ; padio            ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                                                    ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                 ; Output Port Name                                                                                                             ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z                                                                                ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z                                                                                   ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[3]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[3]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[2]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[2]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[1]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|HEX_Z[1]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[4]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[4]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[3]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[3]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[2]                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|HEX_Z[2]                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|TRIG_Z                                                                                ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|TRIG_Z                                                                                   ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z~1                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|TRIG_Z~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst3|lpm_counter:\P1:CURRENT_CNT[1]_rtl_1|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[2]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[1]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|LessThan0~0                                                                           ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|LessThan0~0                                                                              ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|Equal0~1                                                                              ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|Equal0~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|inst19                                                                                                         ; |DESIGN4TG|inst19                                                                                                            ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]~1 ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[3]~1    ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[2]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[1]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]   ; |DESIGN4TG|DESIGN4TG_FIVE_CNT:inst4|lpm_counter:\P1:CURRENT_CNT[1]_rtl_0|alt_counter_f10ke:wysi_counter|counter_cell[0]~COUT ; cout             ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]   ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]      ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|Equal0~1                                                                              ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|Equal0~1                                                                                 ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|LessThan0~0                                                                           ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|LessThan0~0                                                                              ; data_out0        ;
+; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]~1 ; |DESIGN4TG|DESIGN4TG_NINE_CNT:inst2|lpm_counter:\P1:CURRENT_CNT[1]_rtl_2|alt_counter_f10ke:wysi_counter|counter_cell[3]~1    ; data_out0        ;
+; |DESIGN4TG|RESET                                                                                                          ; |DESIGN4TG|RESET~corein                                                                                                      ; dataout          ;
+; |DESIGN4TG|EXT_TRIG                                                                                                       ; |DESIGN4TG|EXT_TRIG                                                                                                          ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[4]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[4]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[3]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[3]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[2]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[2]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_MIN[1]                                                                                                ; |DESIGN4TG|LED_FIVE_MIN[1]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_FIVE_SEC[1]                                                                                                ; |DESIGN4TG|LED_FIVE_SEC[1]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_MIN[4]                                                                                                ; |DESIGN4TG|LED_NINE_MIN[4]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_MIN[3]                                                                                                ; |DESIGN4TG|LED_NINE_MIN[3]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_MIN[2]                                                                                                ; |DESIGN4TG|LED_NINE_MIN[2]                                                                                                   ; padio            ;
+; |DESIGN4TG|LED_NINE_SEC[1]                                                                                                ; |DESIGN4TG|LED_NINE_SEC[1]                                                                                                   ; padio            ;
++---------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+    Info: Processing started: Thu Jan 09 19:46:15 2014
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off DESIGN4TG -c DESIGN4TG
+Info: Using vector source file "Z:/DESIGN4TG/DESIGN4TG.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of DESIGN4TG.vwf called DESIGN4TG.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      60.58 %
+Info: Number of transitions in simulation is 2372
+Info: Vector file DESIGN4TG.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 205 megabytes
+    Info: Processing ended: Thu Jan 09 19:46:17 2014
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:00
+
+

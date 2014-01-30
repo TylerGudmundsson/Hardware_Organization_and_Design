@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue Dec 10 19:23:29 2013
+Quartus II 64-Bit Version : 9.0 Build 235 06/17/2009 SP 2 SJ Full Version
+Revision Name : DESIGN1TG
+Top-level Entity Name : DESIGN1TG
+Family : MAX7000S
+Device : EPM7128SLC84-7
+Timing Models : Final
+Total macrocells : 8 / 128 ( 6 % )
+Total pins : 17 / 68 ( 25 % )

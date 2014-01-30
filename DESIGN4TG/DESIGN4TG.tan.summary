@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.700 ns
+From           : RESET
+To             : DESIGN4TG_FIVE_CNT:inst3|HEX_Z[2]
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 31.400 ns
+From           : DESIGN4TG_FIVE_CNT:inst3|HEX_Z[3]
+To             : LED_FIVE_SEC[2]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.600 ns
+From           : RESET
+To             : DESIGN4TG_NINE_CNT:inst1|HEX_Z[1]
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 44.44 MHz ( period = 22.500 ns )
+From           : CLK_GEN:inst5|CLK_1HZ_CNT_BFR[1]
+To             : CLK_GEN:inst5|CLK_1HZ_CNT_BFR[23]
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
